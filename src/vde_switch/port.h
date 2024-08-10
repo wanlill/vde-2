@@ -20,7 +20,7 @@ struct ethheader {
 
 struct packet {
 	struct ethheader header;
-  unsigned char data[1504]; /*including trailer, IF ANY */
+  unsigned char data[10000]; /*including trailer, IF ANY */
 };
 
 struct bipacket {

@@ -40,7 +40,7 @@
 #define MIN(X,Y) (((X)<(Y))?(X):(Y))
 #endif
 
-#define BUFSIZE 4096
+#define BUFSIZE (4096*3)
 #define ETH_ALEN 6
 
 VDECONN *conn;

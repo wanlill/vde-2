@@ -624,7 +624,7 @@ int vde_close(VDECONN *conn)
 
 /* vdestream */
 
-#define MAXPACKET 1521
+#define MAXPACKET 10000
 
 struct vdestream {
 	void *opaque;
